@@ -1,5 +1,5 @@
 import data from '../data/pokemon/pokemon.js';
-//tarjetas pokemon
+
 const dataPokemon = data.items;
 const cardPokemons = () => {  
     // 1 Creamos la tarjeta pokemon  
