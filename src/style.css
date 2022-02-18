@@ -6,12 +6,14 @@
 
 body{
     height: 100vh;
-    background: #060AB2;
+    background-image: url('images/Detective-Conan-detective-conan-12106844-640-480.jpg');
+    background-position: center center;
+    background-size: cover;
     display: flex;
 }
 
 .memory-game{
-    width: 640px;
+    width:  70vw;
     height: 640px;
     display:flex;
     flex-wrap: wrap;
@@ -20,8 +22,8 @@ body{
 }
 
 .memory-card{
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    width: 160px;
+    height: 190px;
     position: relative;
     margin: 5px;
     transform: scale(1);
@@ -42,12 +44,9 @@ body{
     height: 100%;
     padding: 20px;
     border-radius: 5px;
-    background: #1c7ccc;
+    background: #041d31;
     backface-visibility: hidden;
 }
 .front-face{
     transform: rotateY(180deg);
 }
-/* img{
-    width: 100px;
-} */
